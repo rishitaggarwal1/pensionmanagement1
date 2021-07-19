@@ -1,0 +1,15 @@
+﻿@model PensionDetail
+@{
+    ViewData["Title"] = "PensionervaluesDisplayed";
+}
+
+
+<div class="container p-3 rounded bg-secondary text-white" style="border-radius : 50px; text-align : center;">
+    <h1>Your Pension Amount is @Model.PensionAmount</h1>
+</div>
+
+<div>
+    <a asp-action="Logout">Logout</a>
+</div>
+
+
